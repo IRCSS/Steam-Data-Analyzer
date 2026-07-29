@@ -1,0 +1,43 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environment
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code local settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Generated data and output
+data/processed/*
+data/raw/*
+outputs/charts/*
+outputs/tables/*
+images/*
+
+# Keep empty folders
+!data/processed/.gitkeep
+!outputs/charts/.gitkeep
+!outputs/tables/.gitkeep
+
+# Operating systems
+.DS_Store
+Thumbs.db
